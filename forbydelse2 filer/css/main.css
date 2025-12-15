@@ -1,0 +1,21 @@
+/* Base */
+body {
+  background-color: #546880;
+}
+
+.infographic-wrapper {
+  max-width: 700px;
+  margin: 50px auto;
+}
+/* Canvas fylder wrapperen og giver scroll */
+#rive-canvas {
+  max-width: 600px;
+  height: 600vh;     
+  cursor: pointer;
+}
+/* Mobil: mere scroll */
+@media (max-width: 768px) {
+  #rive-canvas {
+    height: 300vh;
+  }
+}
